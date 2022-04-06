@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 // Componentes
 import App from "./App";
-// Visual
+// `Bootstrap
+import * as bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+// Internal CSS
 import "./assets/css/styles.css";
 
 ReactDOM.render(
