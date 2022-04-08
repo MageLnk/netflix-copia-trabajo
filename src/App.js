@@ -1,17 +1,15 @@
 // Importantes
 
 // Componentes internos
-import Header from "./components/header";
-import Carousel from "./components/carousel";
+import NavBar from "./components/navbar";
 // CSS
 
 const App = () => {
   return (
     <>
-      <Header />
-
+      <NavBar />
       <section>
-        <Carousel />
+        <p>Ola k ase</p>
       </section>
     </>
   );

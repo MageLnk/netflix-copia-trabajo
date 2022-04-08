@@ -1,4 +1,4 @@
-# Sitio básico creador para el curso de UI-UX en DesafioLATAM
+# Sitio básico creado para el curso de UI-UX en DesafioLATAM por mi
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) y con Boostrap.
 
