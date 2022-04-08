@@ -7,18 +7,18 @@ import imgLogoNetflix from "../../assets/img/Netflix-logo.png";
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
           <img
             src={imgLogoNetflix}
             alt="Netflix Logo"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
             style={{ width: "8rem", height: "4rem" }}
           />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -26,41 +26,43 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <form className="d-flex">
             {/*Modal config*/}
             <div
-              class="modal fade"
+              className="modal fade"
               id="exampleModal"
               tabindex="-1"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="exampleModalLabel">
                       Acá iría la información de login
                     </h5>
                     <button
                       type="button"
-                      class="btn-close"
+                      className="btn-close"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">¿Estás seguro que deseas logear?</div>
-                  <div class="modal-footer">
+                  <div className="modal-body">
+                    ¿Estás seguro que deseas logear?
+                  </div>
+                  <div className="modal-footer">
                     <button
                       type="button"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       data-bs-dismiss="modal"
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" className="btn btn-primary">
                       Save changes
                     </button>
                   </div>
@@ -70,7 +72,7 @@ const NavBar = () => {
             {/*Botón modal*/}
             <button
               type="button"
-              class="btn btn-danger"
+              className="btn btn-danger"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >

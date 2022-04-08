@@ -1,5 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: black;
+}
+
+.bg-section-one {
+  background-image: url("../img/wallpaper-1.jpg");
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  color: white;
+}
+.text-ready {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.form-email-css {
+  margin-top: 0;
+}
+
+.full-body-hr {
+  padding: 0;
+  margin: 0;
+  border: 0.3rem solid #817979;
 }
