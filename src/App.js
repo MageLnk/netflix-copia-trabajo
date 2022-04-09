@@ -1,12 +1,13 @@
 // Importantes
 
 // Componentes internos
+import Faq from "./components/FAQ";
+import Footer from "./components/footer";
 import NavBar from "./components/navbar";
 import Sections from "./components/sections";
+import Carousel from "./components/carousel";
 import SectionOne from "./components/sectionOne";
 import Separation from "./components/separation";
-import Carousel from "./components/carousel";
-import Faq from "./components/FAQ";
 // CSS
 
 // Textos e IMG's
@@ -54,6 +55,7 @@ const App = () => {
       <Separation />
       <Faq />
       <Separation />
+      <Footer />
     </>
   );
 };

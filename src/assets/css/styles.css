@@ -76,3 +76,8 @@ body {
   color: white;
   background-color: #474444;
 }
+
+.footer-margin {
+  padding: 4rem 0rem 4rem 0rem;
+  color: grey;
+}

@@ -11,7 +11,7 @@ const EmailForm = () => {
                 className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Email address"
+                placeholder="Email Adress"
               />
             </div>
             <div className="col-4">
