@@ -5,6 +5,7 @@ import NavBar from "./components/navbar";
 import Sections from "./components/sections";
 import SectionOne from "./components/sectionOne";
 import Separation from "./components/separation";
+import Carousel from "./components/carousel";
 // CSS
 
 // Textos e IMG's
@@ -32,6 +33,7 @@ const App = () => {
         firstImg={firstImg}
       />
       <Separation />
+      {/*Segunda sección*/}
       <Sections
         firstText={thirdText}
         secondText={fourthText}
@@ -39,6 +41,7 @@ const App = () => {
         firstImg={firstImg}
       />
       <Separation />
+      {/*Tercera sección*/}
       <Sections
         firstText={fifthText}
         secondText={sixthText}
@@ -46,6 +49,7 @@ const App = () => {
         firstImg={firstImg}
       />
       <Separation />
+      <Carousel />
     </>
   );
 };

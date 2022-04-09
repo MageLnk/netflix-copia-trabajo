@@ -45,3 +45,7 @@ body {
 .sections .internal-first-section .h4-internal-first-section {
   font-size: 22px;
 }
+
+.container-section {
+  padding: 7rem 0rem 7rem 0rem;
+}
