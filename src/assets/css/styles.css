@@ -58,3 +58,21 @@ body {
   height: 25rem;
   width: 80rem;
 }
+
+.faq-container {
+  color: white;
+  padding: 7rem 0rem 7rem 0rem;
+}
+.faq-container .faq-introduction {
+  text-align: center;
+}
+
+.border-accordion {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #474444;
+}
+.internal-accordion {
+  color: white;
+  background-color: #474444;
+}

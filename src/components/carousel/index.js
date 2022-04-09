@@ -19,10 +19,10 @@ const Carousel = () => {
           <div className="carousel-item active">
             <img src={primera} className="d-block img-config" alt="..." />
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img src={segunda} className="d-block img-config" alt="..." />
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img src={tercera} className="d-block img-config" alt="..." />
           </div>
         </div>

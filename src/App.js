@@ -6,6 +6,7 @@ import Sections from "./components/sections";
 import SectionOne from "./components/sectionOne";
 import Separation from "./components/separation";
 import Carousel from "./components/carousel";
+import Faq from "./components/FAQ";
 // CSS
 
 // Textos e IMG's
@@ -50,6 +51,8 @@ const App = () => {
       />
       <Separation />
       <Carousel />
+      <Separation />
+      <Faq />
       <Separation />
     </>
   );
