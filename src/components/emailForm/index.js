@@ -3,19 +3,19 @@ const EmailForm = () => {
     <div className="row justify-content-center form-email-css">
       <div className="col-6 ">
         <form>
-          <label for="exampleInputEmail1" class="form-label"></label>
+          <label htmlFor="exampleInputEmail1" className="form-label"></label>
           <div className="row">
             <div className="col-8">
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Email address"
               />
             </div>
             <div className="col-4">
-              <button type="submit" class="btn btn-danger">
+              <button type="submit" className="btn btn-danger">
                 GET STARTED ❯
               </button>
             </div>
