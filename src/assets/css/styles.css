@@ -46,6 +46,15 @@ body {
   font-size: 22px;
 }
 
-.container-section {
+.align-col-carousel {
+  text-align: center;
+  color: white;
+  padding-bottom: 3rem;
+}
+.container-section-carousel {
   padding: 7rem 0rem 7rem 0rem;
+}
+.container-section-carousel .img-config {
+  height: 25rem;
+  width: 80rem;
 }

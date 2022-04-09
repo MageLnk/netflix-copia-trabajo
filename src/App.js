@@ -50,6 +50,7 @@ const App = () => {
       />
       <Separation />
       <Carousel />
+      <Separation />
     </>
   );
 };

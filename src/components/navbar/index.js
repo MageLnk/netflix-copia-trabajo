@@ -7,27 +7,33 @@ import imgLogoNetflix from "../../assets/img/Netflix-logo.png";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="www.netflix.com" target="_blank">
-          <img
-            src={imgLogoNetflix}
-            alt="Netflix Logo"
-            className="d-inline-block align-text-top"
-            style={{ width: "8rem", height: "4rem" }}
-          />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <div className="col-2">
+          <a className="navbar-brand" href="www.netflix.com" target="_blank">
+            <img
+              src={imgLogoNetflix}
+              alt="Netflix Logo"
+              className="d-inline-block align-text-top"
+              style={{ width: "8rem", height: "4rem" }}
+            />
+          </a>
+        </div>
+
+        <div className="col-2 offset-7">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex">
             {/*Modal config*/}
